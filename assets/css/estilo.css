@@ -1,76 +1,86 @@
-*{
+* {
+	padding: 0;
+	margin: 0;
+}
+@media(min-width: 600px){
+    .header img{
+        opacity: 0;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        /*display: flex;
+        flex-wrap: wrap;*/
+    }
+}
+.header {
+	background-color: #117a25;
+	color: #f2f2f2;
+	font-family: "Roboto", sans-serif;
+	/*padding-left: 10%;*/
+}
+.header p {
+	font-size: 16px;
+	line-height: 19px;
+	padding-top: 68px;
+}
+.header h1 {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+}
+.nav {
+	overflow: hidden;
+	background-color: #00420c;
+	color: #f2f2f2;
+	font-size: 18px;
+	line-height: 21px;
+}
+.nav table {
+    /*margin-left: 10%;*/
     margin: 0;
-    
 }
-.header{
-    background-color: #117A25;
-    color: #F2F2F2;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 10%;
+.nav--elementos {
+	border-spacing: 22px;
 }
-.header p{
-    font-size: 18px;
-    line-height: 21px;
-    padding-top: 68px;
+.main {
+	font-family: "Roboto", sans-serif;
+	/*margin-left: 10%;
+	margin-right: 56%;*/
+	display: flex;
 }
-.header h1{
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
+.main--texto {
+	/*background-color: blue;*/
 }
-.nav{
-    overflow: hidden;
-    background-color: #00420C;
-    color: #F2F2F2;
-    font-size: 18px;
-    
-    line-height: 21px;
+.main h2 {
+	font-size: 24px;
+	line-height: 28px;
+	color: #00420c;
 }
-.nav table{
-    margin-left: 10%;
+.main p {
+	font-size: 16px;
+	line-height: 19px;
+	text-justify: auto;
 }
-.nav--elementos{
-    border-spacing: 22px;
+.main--conceito {
+	width: 313px;
+	height: 159px;
+	background-color: #117a25;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10%;
+	text-align: center;
 }
-.main{
-    font-family: 'Roboto', sans-serif;
-    margin-left: 10%;
-    /*margin-right: 56%;*/
-    display: flex;
+.footer {
+	background: #00420c;
+	font-family: "Roboto", sans-serif;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-size: 18px;
+	color: white;
+	display: ;
 }
-.main--texto{
-    /*background-color: blue;*/
+.footer h3 {
+	font-weight: bold;
 }
-.main h2{
-    font-size: 24px;
-    line-height: 28px;
-    color: #00420C;
-}
-.main p{
-    font-size: 16px;
-    line-height: 19px;
-    text-justify: auto;
-}
-.main--conceito{
-    width: 313px;
-    height: 159px;
-    background-color: #117A25;
-    color: white;
-    border-radius: 5px;
-    margin-right: 10%;
-    text-align: center;
-}
-.footer{
-    background: #00420C;
-    font-family: 'Roboto', sans-serif;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 18px;
-    color: white;
-    display: 
-}
-.footer h3{
-    font-weight: bold;
-}
-.footer p{
-
+.footer p {
 }
