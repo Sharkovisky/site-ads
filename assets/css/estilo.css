@@ -45,16 +45,31 @@
 .nav__elementos {
 	border-spacing: 22px;
 }
+@media(min-width: 600px){
+	.principal{
+		display: flex;
+	}
+	.main__texto{
+		width: 40%;
+	}
+	.main__texto2{
+		width: 40%;
+	}
+}
+
 .main {
 	font-family: "Roboto", sans-serif;
 	/*margin-left: 10%;
-	margin-right: 56%;
-	display: flex;*/
+	margin-right: 56%;*/
 }
 .main__texto {
 	/*background-color: blue;*/
 	padding: 0 15px;
 	padding-bottom: 30px;
+	background-color: blue;
+}
+.main__texto2{
+	background-color: red;
 }
 .main__texto h2 {
 	font-style: normal;
