@@ -96,6 +96,69 @@ footer img{
 }
 @media(min-width: 600px){
 	.container{
-		
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	header{
+		display: block;
+	}
+	header img{
+		display: none;
+	}
+	header p{
+		padding: 60px 0 0 0;
+	}
+	header h1{
+		padding: 10px 0 30px 0;
+	}
+	nav{
+		background: #00420C;
+		display: block;
+		color: white;
+	}
+	nav ul{
+		display: flex;
+		flex-direction: row;
+		list-style: none;
+	}
+	nav ul li{
+		text-decoration: none;
+		margin: 10px 20px 10px 0;
+	}
+	main{
+		display: flex;
+		flex-direction: row;
+	}
+	main h2{
+		text-align: left;
+	}
+	main p{
+		padding: 0;
+		margin: 0 100px 0 0;
+	}
+	.main__conceito{
+		background: blue;
+		padding: 0;
+		margin: 0;
+	}
+	.main__conceito-frase{
+		margin: 0;
+	}
+	.main__coordenador{
+		text-align: left;
+	}
+	.main__coordenador p{
+		margin: 0;
+		text-align: left;
+	}
+	footer{
+		display: block;
+	}
+	footer section{
+		display: flex;
+		flex-direction: row;
+		background-color: blue;
+	}
+	.footer__texto{
 	}
 }
