@@ -80,6 +80,25 @@ main ul li{
 	text-align: center;
 	padding: 20px 0 40px 0;
 }
+main table{
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-collapse: collapse;
+	margin: 20px;
+}
+table tr:nth-child(odd) {
+	background: #E5E5E5;
+}
+main table td{
+	font-size: 18px;
+	padding: 0 0 0 10px;
+}
+main table td p{
+	font-size: 14px;
+}
+main table td{
+	border: 1px solid black;
+}
 footer{
 	background: #00420C;
 	color: white;
@@ -94,6 +113,7 @@ footer img{
 	margin: 0 20px;
 	padding: 10px 0 50px 0;
 }
+
 @media(min-width: 600px){
 	.container{
 		max-width: 1200px;
@@ -107,9 +127,11 @@ footer img{
 	}
 	header p{
 		padding: 60px 0 0 0;
+		font-size: 18px;
 	}
 	header h1{
-		padding: 10px 0 30px 0;
+		padding: 20px 0 30px 0;
+		font-size: 36px;
 	}
 	nav{
 		background: #00420C;
@@ -134,15 +156,17 @@ footer img{
 	}
 	main p{
 		padding: 0;
-		margin: 0 100px 0 0;
+		margin: 0 300px 0 0;
+		line-height: 25px;
 	}
-	.main__conceito{
-		background: blue;
-		padding: 0;
+	.main__conceito div{
 		margin: 0;
 	}
 	.main__conceito-frase{
 		margin: 0;
+	}
+	.main__conceito-numero{
+		margin: 0 auto;
 	}
 	.main__coordenador{
 		text-align: left;
@@ -157,8 +181,12 @@ footer img{
 	footer section{
 		display: flex;
 		flex-direction: row;
-		background-color: blue;
 	}
 	.footer__texto{
+		padding: 50px 0 10px 20px;
+		text-align: left;
+	}
+	footer img{
+		padding: 50px 0 50px 0;
 	}
 }
