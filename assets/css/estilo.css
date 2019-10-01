@@ -99,6 +99,12 @@ main table td p{
 main table td{
 	border: 1px solid black;
 }
+.tabela--desktop{
+	display: none;
+}
+.tabela--mobile{
+	display: table;
+}
 footer{
 	background: #00420C;
 	color: white;
@@ -112,6 +118,18 @@ footer img{
 .footer__texto{
 	margin: 0 20px;
 	padding: 10px 0 50px 0;
+}
+.professor{
+	display: flex;
+	border: 1px black solid;
+	padding: 10px;
+}
+.professor img{
+	max-width: 80px;
+	border: 2px solid #00420C;
+}
+.professor p{
+	
 }
 
 @media(min-width: 600px){
@@ -188,5 +206,16 @@ footer img{
 	}
 	footer img{
 		padding: 50px 0 50px 0;
+	}
+	.tabela--desktop{
+		margin: 0;
+		padding: 0;
+		display: table;
+		width: 100%;
+	}
+	.tabela--mobile{
+		display: none;
+	}
+	.tabela--desktop p{
 	}
 }
