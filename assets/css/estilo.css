@@ -253,6 +253,7 @@ footer img{
 	}
 	main section{
 		display: block;
+		margin: 0;
 	}
 	.professor{
 		width: 600px;
@@ -267,6 +268,18 @@ footer img{
 		padding: 0 0 0 20px;
 	}
 	.contato{
-		background-color: yellow;
+		width: 600px;
+	}
+	.contato__conjunto{
+		margin: 10px 10px 30px 0;
+	}
+	.contato__conjunto input{
+		width: 100%;
+	}
+	.contato__conjunto button{
+		width: 30%;
+	}
+	.direita{
+		text-align: right;
 	}
 }
